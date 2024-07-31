@@ -14,7 +14,7 @@ async function scrapeAndPushToGit() {
     const page = await browser.newPage();
 
     // Replace this URL with the URL of the page containing the links you want to scrape
-    const url = 'URL;
+    const url = 'https://URL;
     
     await page.goto(url, { waitUntil: 'networkidle2' });
 
